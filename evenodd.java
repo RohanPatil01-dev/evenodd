@@ -18,10 +18,17 @@ public class evenodd {
         int a=sc.nextInt();
         for(int i=0;i<arr.length;i++){
         if(i%2==0){
-            System.out.println("even");
+            System.out.println("even= "+arr[i]);
         }
         else{
-            System.out.println("odd");
+            System.out.println("odd= "+arr[i]);
+
         }}
+        int sum=0;
+        for(int i=0;i<arr.length;i++){
+            sum=sum+arr[i];
+        }
+        System.out.println("sum of array= "+sum);
+
     }
 }
